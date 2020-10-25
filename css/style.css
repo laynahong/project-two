@@ -11,13 +11,17 @@ body {
 }
 
 p {
-  color: black;
-  font-size: 18px;
+  color: #edafb8;
+  font-style: italic;
+  font-size: 17px;
+  text-align: center;
+  padding: 0px 30px 5px 30px;
 }
 
 h2 {
-  color: white;
+  color: #edafb8;
   text-align: center;
+  font-size: 20pt;
 }
 
 img {
@@ -83,14 +87,14 @@ nav > ul > li > a {
   nav ul {
     display: none;
     max-width: 60vw;
-    width: 100%;
+    width: 60vh;
     height: 100vh;
     background-color: white;
     position: fixed;
     top: 0%;
     bottom: 0%;
     left: 0%;
-    padding: 20px;
+    padding: 30px;
   }
 
   nav > ul > li > a:visited {
@@ -101,7 +105,7 @@ nav > ul > li > a {
     font-size: large;
   }
   #menu.active {
-    display: block;
+    display: inline-block;
   }
 
   #hamburger {
