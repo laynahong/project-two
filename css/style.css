@@ -2,12 +2,21 @@
 
 html,
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "montserratregular", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin: 0%;
   padding: 0;
   background-color: #f8edeb;
   min-height: 100%;
   min-width: 100%;
+}
+
+@font-face {
+  font-family: "montserratregular";
+  src: url("montserrat-regular-webfont.woff2") format("woff2"),
+    url("montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 p {
@@ -192,17 +201,18 @@ footer p {
   font-size: 16px;
 }
 
-/* Sensitive Skin Inside Page Styles */
+/* Inside Page Styles */
 
-.sensitive p {
+.inside p {
   text-align: left;
   color: black;
   font-style: normal;
   font-size: 20px;
   line-height: 20pt;
+  padding: 20px 20px 0px 20px;
 }
 
-.sensitive figcaption {
+.inside figcaption {
   padding: 0px 20px 15px 20px;
   text-align: center;
   color: #edafb8;
@@ -210,10 +220,15 @@ footer p {
   font-style: italic;
 }
 
-.sensitive ol {
+.inside ol {
   font-size: 20px;
   line-height: 20pt;
   padding: 0px 50px 20px 75px;
+}
+
+.inside img {
+  padding: 20px;
+  position: inline;
 }
 
 .video-container {
@@ -230,4 +245,13 @@ footer p {
   top: 0;
   left: 0;
   z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+  }
 }
