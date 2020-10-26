@@ -4,7 +4,7 @@ html,
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0%;
-  padding: 0%;
+  padding: 0;
   background-color: #f8edeb;
   min-height: 100%;
   min-width: 100%;
@@ -88,7 +88,7 @@ nav > ul > li > a {
     display: none;
     max-width: 60vw;
     width: 60vh;
-    height: 100vh;
+    height: 100%;
     background-color: white;
     position: fixed;
     top: 0%;
@@ -118,10 +118,17 @@ nav > ul > li > a {
 
 /* Header Styles */
 
-header > figure > img {
+.header > figure > img {
   width: 100%;
   height: auto;
-  display: inline-block;
+  padding: 0;
+  display: block;
+  overflow: hidden;
+  line-height: 0%;
+}
+
+/* Desktop Header Style */
+@media (min-width: 768px) {
 }
 
 /* Section Styles */
@@ -158,9 +165,17 @@ main > section > a {
 .card {
   border-radius: 5px;
   overflow: hidden;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.card p {
+  color: #edafb8;
+  font-style: italic;
+  font-size: 17px;
+  text-align: center;
+  padding: 0px;
 }
 
 /* Footer Styles */
