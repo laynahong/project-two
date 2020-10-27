@@ -105,6 +105,7 @@ nav > ul > li > a {
     bottom: 0%;
     left: 0%;
     padding: 30px;
+    margin: 0%;
   }
 
   nav > ul > li > a:visited {
@@ -233,6 +234,7 @@ footer p {
 .inside img {
   padding: 20px;
   position: inline;
+  box-sizing: border-box;
 }
 
 .video-container {
@@ -256,7 +258,7 @@ footer p {
     float: left;
     width: 50%;
     height: auto;
-    padding: 20px;
+    margin: 20px;
   }
 }
 
