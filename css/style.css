@@ -39,7 +39,6 @@ img {
   height: auto;
   margin: 0%;
   padding: 0%;
-  background-size: cover;
 }
 
 a:visited {
@@ -259,6 +258,12 @@ footer p {
     width: 50%;
     height: auto;
     margin: 20px;
+    padding: 0%;
+  }
+  .wrap-text {
+    width: 40%;
+    float: left;
+    display: none;
   }
 }
 
