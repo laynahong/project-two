@@ -146,8 +146,6 @@ figure {
 }
 
 /* Desktop Header Style */
-@media (min-width: 768px) {
-}
 
 @media (min-width: 768px) {
   .grid-1-3 {
@@ -156,6 +154,11 @@ figure {
   }
   #hamburger {
     display: none;
+  }
+
+  .header-image {
+    height: 100vh;
+    width: auto;
   }
 }
 
