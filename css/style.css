@@ -149,11 +149,7 @@ figure {
 @media (min-width: 768px) {
 }
 
-/* Section Styles */
-
-/* this is only applied on desktop */
 @media (min-width: 768px) {
-  /*this is a grid with three columns*/
   .grid-1-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
