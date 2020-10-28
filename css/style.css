@@ -34,6 +34,12 @@ h2 {
   padding: 0px 10px 0px 10px;
 }
 
+h3 {
+  color: #edafb8;
+  text-align: center;
+  font-size: 21pt;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -129,10 +135,11 @@ nav > ul > li > a {
 
 /* Header Styles */
 
-.header > figure > img {
+figure {
   width: 100%;
   height: auto;
-  padding: 0;
+  padding: 0%;
+  margin: 0%;
   display: block;
   overflow: hidden;
   line-height: 0%;
@@ -143,8 +150,6 @@ nav > ul > li > a {
 }
 
 /* Section Styles */
-
-/* Grid Styles */
 
 /* this is only applied on desktop */
 @media (min-width: 768px) {
@@ -160,7 +165,7 @@ nav > ul > li > a {
 
 /* Card Styles */
 
-main a {
+.card a {
   text-align: center;
   text-decoration: none;
   display: block;
@@ -171,6 +176,11 @@ main a {
 
 main > section > a {
   font-size: 20px;
+  padding: 10px;
+}
+
+.card div {
+  padding: 10px;
 }
 
 .card {
@@ -187,6 +197,17 @@ main > section > a {
   font-size: 17px;
   text-align: center;
   padding: 0px;
+}
+
+.card figure {
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  align: center;
+}
+
+.card section {
+  align-items: center;
 }
 
 /* Footer Styles */
@@ -230,6 +251,12 @@ footer p {
   padding: 0px 50px 20px 75px;
 }
 
+.inside ul {
+  font-size: 20px;
+  line-height: 20pt;
+  padding: 0px 50px 20px 75px;
+}
+
 .inside img {
   padding: 20px;
   position: inline;
@@ -265,6 +292,21 @@ footer p {
     float: left;
     display: none;
   }
+}
+
+.credits a:link {
+  color: black;
+  text-align: center;
+}
+
+.credits a:visited {
+  color: black;
+  text-align: center;
+}
+
+.credits p {
+  text-align: center;
+  font-size: 17pt;
 }
 
 /*FAQ Styles*/
